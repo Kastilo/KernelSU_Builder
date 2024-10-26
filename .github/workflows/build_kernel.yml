@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: ["LineageOS-20"]
+        version: ["Zenitsu"]
 
     env:
       VERSION: ${{ matrix.version }}
